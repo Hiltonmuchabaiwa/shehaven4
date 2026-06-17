@@ -1,0 +1,26 @@
+SHEHaven Bedding Client Order Website
+
+Upload these files to a NEW GitHub repository or a separate folder/repo:
+
+app.py
+requirements.txt
+runtime.txt
+README.txt
+
+In Streamlit Cloud, deploy app.py.
+Add this in Streamlit Secrets:
+
+SUPABASE_DB_URL = "your Supabase PostgreSQL pooler URL here"
+
+Use the same Supabase database as the admin stock system.
+
+Default admin/staff login uses the users table from the stock system:
+Username: admin
+Password: admin123
+
+This client website allows customers to place orders online. Orders are saved to Supabase in:
+client_orders
+client_order_items
+order_status_history
+
+Client orders do NOT reduce stock automatically. Admin should confirm orders first, then record the actual sale in the main SHEHaven stock system. This avoids fake orders reducing real stock.
