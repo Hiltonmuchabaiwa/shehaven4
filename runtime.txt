@@ -1,5 +1,1 @@
-streamlit
-pandas
-SQLAlchemy
-psycopg[binary]
-openpyxl
+python-3.11

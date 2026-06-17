@@ -1,29 +1,5 @@
-SHEHaven Bedding Unified Portal - Basic Orders Build
-
-This build keeps the successful main SHEHaven stock/user system and adds the client/user prompt.
-
-What this build includes:
-- First page asks: Client or User/Staff
-- Client side allows customers to browse available products and place orders
-- User/Staff side opens the normal login page
-- Client orders save into the same Supabase database
-- User platform shows pending orders under Client Orders
-- Sidebar shows pending order count
-- Staff can update order status or delete wrong/fake orders
-
-What is intentionally left out for now:
-- Email notifications
-- WhatsApp notifications
-
-Upload these files only to GitHub root:
-- app.py
-- requirements.txt
-- runtime.txt
-- README.txt
-
-Streamlit Secret required:
-SUPABASE_DB_URL = "your Supabase database URL"
-
-Default login:
-Username: admin
-Password: admin123
+streamlit
+pandas
+SQLAlchemy
+psycopg[binary]
+openpyxl
